@@ -37,19 +37,7 @@ class LoginPage extends StatelessWidget{
             TextFormField(
               decoration: const InputDecoration(labelText: 'Password')              
             ),
-           /* Row(
-              mainAxisAlignment:MainAxisAlignment.spaceBetween,
-              children:[
-                Row(children:[ Checkbox(value:rememberMe, onChanged: (value)
-            {setState(() {
-              rememberMe=value!;
-            });
-            },),
-            const Text('Remember me'),
-            ],),
-            TextButton(onPressed: (){}, child: const Text('Forgot password',style: TextStyle(color: Colors.blue)
-            ),),],
-            ),*/
+           
             ElevatedButton
             (style: ElevatedButton.styleFrom(foregroundColor: const Color.fromRGBO(249, 252, 252, 1),backgroundColor:Colors.green ),            
              child:const Text('Login now'),
